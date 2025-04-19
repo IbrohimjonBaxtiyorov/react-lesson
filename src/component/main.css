@@ -1,30 +1,32 @@
-
-.main{
-    max-width: 1338px; 
+.main {
+    max-width: 1338px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.title{
+
+.title1 {
     text-align: left;
     color: #000000;
     font-size: 64px;
     line-height: 80px;
-    font-weight:600;
+    font-weight: 600;
 }
-.desc{
-    font-weight:400;
+
+.desc {
+    font-weight: 400;
     max-width: 528px;
     margin-top: 40px;
     color: #8F95A5;
     font-size: 24px;
 }
-.button-hero{
+
+.button-hero {
     padding: 32px 118px;
     border-radius: 18px;
     border: none;
-    font-weight:400;
+    font-weight: 400;
     background-color: #263238;
     color: white;
     font-size: 30px;

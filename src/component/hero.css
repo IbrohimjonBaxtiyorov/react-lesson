@@ -1,0 +1,122 @@
+.main-hero {
+    max-width: 1338px;
+    margin: 0 auto;
+    margin-top: 104px;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 80px;
+    margin-bottom: 88px;
+
+}
+
+.hero-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 18px;
+    row-gap: 20px;
+}
+
+.hero-frist-card {
+    padding: 35px 22px;
+    background-color: #F5F5F5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px;
+}
+
+.hero-second-card {
+    padding: 35px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.hero-third-card {
+    padding: 34px 45px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.hero-four-card {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    padding-right: 25px;
+    padding-left: 48px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-title {
+    margin-top: 4px;
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #263238;
+}
+
+.hero-title-two {
+    margin-top: 4px;
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #263238;
+    margin-bottom: 60px;
+}
+
+.hero-desc-frist {
+    margin-top: 5px;
+    color: #8F95A5;
+    font-weight: 400;
+    max-width: 347px;
+}
+
+.hero-desc-second {
+    margin-top: 20px;
+    color: #8F95A5;
+    font-weight: 400;
+    margin-bottom: 36px;
+    max-width: 347px;
+}
+
+.hero-button {
+    padding: 17px 63px;
+    color: white;
+    font-size: 20px;
+    background-color: #263238;
+    border-radius: 5px;
+}
+
+.read-title {
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: -10px;
+    color: #263238;
+}
+
+.read-desc {
+    color: #8F95A5;
+    margin-bottom: 35px;
+}
+
+.listening {
+    color: #263238;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.listening-title {
+    color: #8F95A5;
+    font-weight: 400;
+    margin-bottom: 25px;
+    max-width: 332px;
+}
